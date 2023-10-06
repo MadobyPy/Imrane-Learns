@@ -1,0 +1,157 @@
+body, html {
+	height: 100%;
+	font-family: 'Arial', sans-serif;
+}
+body {
+	background-color : #EFAE14;
+}
+.content_wrapper {
+	position : relative;
+	width : 1024px;
+	height : 100%;
+	min-height: 850px;
+	background: url(../images/background.jpg) top center no-repeat;
+	background-size : cover;
+	margin : 0 auto;
+	overflow: hidden;
+	box-shadow : 0 0 50px -15px black;
+}
+.start_button {
+	cursor: pointer;
+	width: 351px;
+	height: 351px;
+	position : absolute;
+	top : 240px;
+	left : 75px;
+	z-index: 10;
+	background: url(../images/press.png) center center no-repeat;
+}
+
+.units_menu {
+	width : 420px;
+	height : 550px;
+	position : absolute;
+	top : 125px;
+	left: 0px;
+	overflow : hidden;
+}
+.units_menu ul {
+	position :relative;
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+.units_menu ul li {
+	position : relative;
+	left: -400px;
+	width : 400px;
+	height: 95px;
+	margin-bottom : -40px;
+	background: url(../images/menu_item.png) center center no-repeat;
+}
+.units_menu ul li a {
+	display :block;
+	position : relative;
+	padding-top: 22.5px;
+	width : 380px;
+	margin-top : 10px;
+	height: 50px;
+	line-height : 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+.units_menu ul li a span {
+	width : 70px;
+	height: 50px;
+	text-align : center;
+	line-height: 50px;
+	margin-left: 22px;
+	margin-top : -8px;
+	margin-right: 20px;
+	vertical-align : middle;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.unit_content {
+	position : absolute;
+	right: -527px;
+	top : 200px;
+	width: 527px;
+	height: 402px;
+	background: url(../images/caja_actividades.png) center center no-repeat;
+}
+.unit_content h1 {
+	font-size: 23px;
+	font-weight: bold;
+	padding : 5px 20px;
+	margin: 20px;
+	margin-bottom : 10px;
+}
+.unit_content .activities {
+	width : 100%;
+	text-align : center;
+}
+.unit_content .activities > .activity {
+	display : inline-block;
+	cursor: pointer;
+	width : 120px;
+	height : 145px;
+	color : #5c5c5c;
+	margin : 5px 20px;
+	text-align : center;
+	font-size: 16px;
+	font-weight :bold;
+}
+.window {
+	display : none;
+	position : absolute;
+	z-index: 10000;
+	width : 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.7);
+}
+.window .title {
+	position : absolute;
+	top : 0;
+	left: 0;
+	width: 100%;
+	background-color : #000;
+	color : white;
+	font-size : 24px;
+	font-weight:bold;
+}
+.window .title .close {
+	float: right;
+	width : 60px;
+	height: 60px;
+	cursor : pointer;
+	background: url(../images/cerrar.jpg) center center no-repeat;
+}
+.window .title .numbers {
+	display: inline-block;
+	padding: 15px 20px;
+}
+.window .iframe {
+	width : 765px;
+	height : 1210px;
+	background-color : transparent;
+	position : absolute;
+	left: 130px;
+	top: 20px; /* 80px;*/
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+	background-color: rgb(5, 143, 208);
+}

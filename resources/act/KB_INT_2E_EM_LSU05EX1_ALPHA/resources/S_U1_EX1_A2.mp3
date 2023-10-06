@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Web Script Status 404 - Not Found</title>
+      <link rel="stylesheet" href="/alfresco/css/base.css" type="text/css" />
+   </head>
+   <body>
+      <div>
+         <table>
+            <tr>
+               <td><img src="/alfresco/images/logo/AlfrescoLogo32.png" alt="Alfresco" /></td>
+               <td><span class="title">Web Script Status 404 - Not Found</span></td>
+            </tr>
+         </table>
+         <br/>
+         <table>
+            <tr><td>The Web Script <a href="/alfresco/s/api/node/content/workspace/SpacesStore/260e41d4-416d-4ee0-a513-7f4ec0dd149e/S_U1_EX1_A2.mp3?alf_ticket=TICKET_a4489aa817a4032cdb36a80644e374bc104f5d74">/alfresco/s/api/node/content/workspace/SpacesStore/260e41d4-416d-4ee0-a513-7f4ec0dd149e/S_U1_EX1_A2.mp3</a> has responded with a status of 404 - Not Found.</td></tr>
+         </table>
+         <br/>
+         <table>
+            <tr><td><b>404 Description:</b></td><td> Requested resource is not available.</td></tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td><b>Message:</b></td><td>1024835150 Unable to find node reference [workspace, SpacesStore, 260e41d4-416d-4ee0-a513-7f4ec0dd149e, S_U1_EX1_A2.mp3]</td></tr>
+            <tr><td></td><td>&nbsp;</td></tr>
+   <tr><td><b>Exception:</b></td><td>org.alfresco.web.scripts.WebScriptException - 1024835150 Unable to find node reference [workspace, SpacesStore, 260e41d4-416d-4ee0-a513-7f4ec0dd149e, S_U1_EX1_A2.mp3]</td></tr>
+   <tr><td></td><td>&nbsp;</td></tr>
+         <tr><td></td><td>org.alfresco.repo.web.scripts.content.ContentGet.execute(ContentGet.java:96)</td></tr>
+         <tr><td></td><td>org.alfresco.repo.web.scripts.RepositoryContainer$2.execute(RepositoryContainer.java:371)</td></tr>
+         <tr><td></td><td>org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:326)</td></tr>
+         <tr><td></td><td>org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:421)</td></tr>
+         <tr><td></td><td>org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:438)</td></tr>
+         <tr><td></td><td>org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:302)</td></tr>
+         <tr><td></td><td>org.alfresco.web.scripts.AbstractRuntime.executeScript(AbstractRuntime.java:295)</td></tr>
+         <tr><td></td><td>org.alfresco.web.scripts.AbstractRuntime.executeScript(AbstractRuntime.java:172)</td></tr>
+         <tr><td></td><td>org.alfresco.web.scripts.servlet.WebScriptServlet.service(WebScriptServlet.java:122)</td></tr>
+         <tr><td></td><td>javax.servlet.http.HttpServlet.service(HttpServlet.java:717)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)</td></tr>
+         <tr><td></td><td>org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)</td></tr>
+         <tr><td></td><td>org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)</td></tr>
+         <tr><td></td><td>org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)</td></tr>
+         <tr><td></td><td>org.apache.jk.server.JkCoyoteHandler.invoke(JkCoyoteHandler.java:190)</td></tr>
+         <tr><td></td><td>org.apache.jk.common.HandlerRequest.invoke(HandlerRequest.java:283)</td></tr>
+         <tr><td></td><td>org.apache.jk.common.ChannelSocket.invoke(ChannelSocket.java:767)</td></tr>
+         <tr><td></td><td>org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:697)</td></tr>
+         <tr><td></td><td>org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:889)</td></tr>
+         <tr><td></td><td>org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)</td></tr>
+         <tr><td></td><td>java.lang.Thread.run(Unknown Source)</td></tr>
+   <tr><td></td><td>&nbsp;</td></tr>
+            <tr><td><b>Server</b>:</td><td>Alfresco Community v3.2.0 (r 2384) schema 3,003</td></tr>
+            <tr><td><b>Time</b>:</td><td>Nov 24, 2013 5:05:12 AM</td></tr>
+            <tr><td></td><td>&nbsp;</td></tr>
+            <tr><td><b>Diagnostics</b>:</td><td><a href="/alfresco/s/script/org/alfresco/repository/store/content.get">Inspect Web Script (org/alfresco/repository/store/content.get)</a></td></tr>
+         </table>
+      </div>
+   </body>
+</html>
+

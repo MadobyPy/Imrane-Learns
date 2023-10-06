@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?><manifest identifier = "lc" version = "1.0.2"
+         xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" 
+         xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns:adlnav = "http://www.adlnet.org/xsd/adlnav_v1p3" 
+         xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd   
+                             http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                             http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+   <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>2004 4th Edition</schemaversion>        
+   </metadata> 
+   <organizations default="Netex">       
+      <organization identifier="Netex" structure="hierarchical">   
+        <title>S_U3_EX4 </title>
+        <item identifier="t_01" identifierref="tema_01" isvisible="true">  
+            <title>S_U3_EX4 </title>
+            <adlcp:masteryscore>80</adlcp:masteryscore>        </item>         
+      </organization>       
+   </organizations> 
+   <resources>
+      <resource identifier="tema_01" type="webcontent" adlcp:scormType="sco" href="index.html">
+          <file  href="index.html"/>
+      </resource>
+   </resources>
+    
+</manifest>
