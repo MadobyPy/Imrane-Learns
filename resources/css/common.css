@@ -13,12 +13,12 @@ body {
 	min-width: 100vh; /* Set a minimum height relative to viewport height */
 	margin: 0 auto;
 	overflow: hidden;
-	box-shadow: 0 0 50px -15px black;
+	/* box-shadow: 0 0 50px -15px black; */
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain; /* Scale image to fit within the container */
-	background-color: #EFAE14; /* Set your desired background color */
+	/*background-color: #EFAE14;*/ /* Set your desired background color */
 }
 
 .start_button {
