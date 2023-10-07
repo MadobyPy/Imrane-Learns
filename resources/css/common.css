@@ -10,7 +10,7 @@ body {
 	position: relative;
 	height: 100%;
 	width: 100% !important;
-	min-height: 100vh; /* Set a minimum height relative to viewport height */
+	min-width: 100vh; /* Set a minimum height relative to viewport height */
 	margin: 0 auto;
 	overflow: hidden;
 	box-shadow: 0 0 50px -15px black;
